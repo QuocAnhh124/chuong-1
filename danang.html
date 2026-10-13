@@ -1,44 +1,53 @@
-```html
 <!DOCTYPE html>
 <html lang="vi">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khám phá Đà Nẵng</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <header class="card">
+            <h1>ĐÀ NẴNG</h1>
+            <p>
+                Đà Nẵng là thành phố biển đáng sống hàng đầu Việt Nam,
+                với nhiều cảnh sắc tuyệt mỹ và điểm đến hấp dẫn.
+            </p>
+        </header>
 
-    <h1>ĐÀ NẴNG</h1>
+        <section class="card">
+            <h2>Các địa điểm nên tham quan</h2>
+            <ol>
+                <li>Bà Nà Hills</li>
+                <li>Cầu Rồng</li>
+                <li>Biển Mỹ Khê</li>
+                <li>Ngũ Hành Sơn</li>
+            </ol>
+        </section>
 
-    <p>
-        Đà Nẵng là thành phố ven biển nổi tiếng của Việt Nam,
-        với nhiều cảnh đẹp và địa điểm du lịch hấp dẫn.
-    </p>
+        <section class="card">
+            <h2>Hình ảnh Đà Nẵng</h2>
+            <div class="image-item-wrapper">
+                <img src="images/danang.jpg" alt="Hình ảnh Đà Nẵng">
+            </div>
 
-    <h2>Các địa điểm nên tham quan</h2>
+            <p style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <a href="https://danangfantasticity.com/" target="_blank" rel="noopener noreferrer" class="btn-link">
+                    Tìm hiểu thêm về du lịch Đà Nẵng ↗
+                </a>
+                <a href="index.html" class="btn-link">
+                    ← Quay lại trang chủ
+                </a>
+            </p>
+        </section>
 
-    <ol>
-        <li>Bà Nà Hills</li>
-        <li>Cầu Rồng</li>
-        <li>Biển Mỹ Khê</li>
-        <li>Ngũ Hành Sơn</li>
-    </ol>
-
-    <h2>Hình ảnh Đà Nẵng</h2>
-
-    <img src="images/danang.jpg" alt="Hình ảnh Đà Nẵng" width="500">
-
-    <p>
-        <a href="https://danangfantasticity.com/" target="_blank">
-            Tìm hiểu thêm về du lịch Đà Nẵng
-        </a>
-    </p>
-
-    <p>
-        <a href="index.html">← Quay lại trang chủ</a>
-    </p>
-
+        <footer>
+            <p>© Website Khám phá Việt Nam</p>
+        </footer>
+    </div>
 </body>
 
 </html>
